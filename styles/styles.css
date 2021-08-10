@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body{
+    font-family: Abel;
+    background-color: #DAE1E7
+    
+}
+
+.nav{
+   background-color:#142850;
+    color: #00909E;
+    width: 100%;
+    height: 5rem;
+    margin: 0.4rem;
+    
+}
+.nav-item{
+    color: #00909E;
+    font-weight: bold;
+    font-size: 1.25rem; 
+    float: left;
+    margin: 1.5rem;
+    text-decoration: none;
+}
+.nav-item:hover{
+    color: #DAE1E7;
+}
+.heading{
+    color: #00909E;
+    clear: both;
+    margin-left: 1rem;
+}
+.logo{
+    color: white;
+    float: left;
+    margin: 1rem;
+}
+.destination{
+    float: left;
+    margin-left: 1rem;
+}
+.des-img{
+    max-width: 100%;
+    max-height: 17rem;
+}
+
+.flights{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 1rem;
+}
+.flight{
+   margin: 0.5rem;
+    background-color: #142850;
+}
+.fight_no{
+    background-color: aqua;
+    padding: 0.25rem;
+    font-weight: bold;
+}
+.schedule{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-gap: 0.25rem;
+    color: #00909e;
+}
+.duration{
+    color: white;
+    text-align: center;
+    margin: 0.5rem;
+}
+.departure{
+    color: white;
+    text-align: center;
+    margin: 0.5rem
+}
+.arrival{
+    color: white;
+    text-align: center;
+    margin: 0.5rem;
+}
+.cost{
+   
+     background-color: lightgreen;
+    font-weight: bold;
+     
+}
+.btn{
+    
+    background-color: aqua;
+    font-weight: bold;
+    border: solid 0.1rem #00909e;
+    padding: 0.25rem;
+    cursor: pointer;
+    margin: 0.5rem;
+    float: left;
+    font-size: 0.9375rem;
+
+}
+.btn:hover{
+    background-color: #dae1e7;
+    color: #00909e;
+}
+*{
+    box-sizing:border-box;
+}
+.login-container{
+    
+    width: 300px;
+    color: white;
+    background-color: #142850;
+    margin: 2rem;
+    padding: 1rem;
+}
+.login-elements{
+    display: grid;
+    
+}
+.label{
+    color: #dae1e7;
+    display: block;
+
+}
+.form-group{
+    margin-bottom: 0.5rem;
+
+    
+}
+.form-element{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+    
+} 
+.form-input{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+}
+
+.signup-element-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    background-color: #142850;
+    color: white;
+    padding: 3rem;
+    width: 38rem;
+    margin: 1rem;
+    font-weight: 600;
+}
+.search-form-container{
+   width: 20rem;
+    background-color: #142850;
+    padding: 1rem;
+    margin: 1rem;
+}
+.search-element-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;
+}
+
+.banner-image{
+    position: relative;
+    width: 100%;
+    height: 49rem
+    
+}
+.banner-text{
+position: absolute;
+    width: 38rem;
+    top: 18rem;
+    left:3rem;
+    color: darkblue;
+    font-size: 6rem;
+    opacity: 0.7;
+    
+}
+.shading{
+    position: absolute;
+    
+    width: 100%;
+    height: 50rem;
+    opacity: 0.4;
+    background-color: blueviolet;
+    top: 5rem;
+}
+.heading-recommended-flights{
+    margin-left: 1rem;
+    color: #DAE1E7;
+    font-size: 2rem
+    
+}
+.recommended-flights{
+    position: absolute;
+    top: 37.5rem;
+    background-color: rgba(20,40,80,0.4);
+    
+}
+
+.search{
+    position: absolute;
+    top: 15rem;
+    left: 60rem;
+    
+}

@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Sky high</title>
+         <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        
+        
+        <div class="nav">
+            <h1 class="logo">Sky High Airlines</h1>
+            <a class="nav-item" href="index.html">Home</a>
+            <a class="nav-item" href="booking.html">My Bookings</a>
+            <a class="nav-item" href="destinations.html">Destinations</a>
+            <a class="nav-item" href="login.html">Login</a>
+            <a class="nav-item" href="signup.html">Signup</a>
+        </div>
+        
+        
+        <img class="banner-image" src="images/flight.jpeg">
+        
+        <div class="shading"></div>
+        
+        <div class="banner-text">Up Up And Away.</div>
+     <div class="search">    
+        <div class="search-form-container">
+            <h2 class="heading">Search Flights</h2>
+            <form action="index.html">
+                <div class="search-element-container">
+                    <div class="form-group">
+                        <input class="form-element" type="text" name="from" placeholder="From" required>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-element" type="text" name="to" placeholder="To" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="travelDate" placeholder="Travel Date yyyy-mm-dd" 
+                           class="form-element" pattern="([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))" 
+                           title="yyyy-mm-dd" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="class" class="form-element">
+                            <option>Economy</option>
+                            <option>Business</option>
+                            <option>First</option>
+                        </select>
+                    </div>
+                     <input type="submit" value="Search" class="btn">
+                </div>
+               
+            </form>
+        </div>
+    </div>        
+    <div class="recommended-flights">  
+        <h2 class="heading-recommended-flights">Recommended Flights</h2>
+        
+        <div class="flights">
+            <div class="flight">
+                <div class="fight_no">SH288</div>
+                <div class="schedule">
+                    <div class="departure">
+                        <div class="from">Berlin(BER)</div>
+                        <div class="depart_time">21:00</div>
+                        <div class="depart_date">wed 28 Oct 2021</div>
+                        
+                    </div>
+                    <div class="duration">49 hrs 5 mins</div>
+                    <div class="arrival">
+                        <div class="to">Sydney (SYD)</div>
+                        <div class="arrival_time">08:05</div>
+                        <div class="arrival_date">Sat 31 Oct 2021</div>
+                    </div>
+                </div>
+                <div class="cost">$3,447</div>
+                
+                <form action="booking.html">
+                    <input type="submit" value="Book" class="btn">
+                </form>
+            </div>
+            
+             <div class="flight">
+                <div class="fight_no">SH245</div>
+                <div class="schedule">
+                    <div class="departure">
+                        <div class="from">Sydney (SYD)</div>
+                        <div class="depart_time">22:25</div>
+                        <div class="depart_date">wed 28 Oct 2021</div>
+                        
+                    </div>
+                    <div class="duration">23 hrs 52 mins</div>
+                    <div class="arrival">
+                        <div class="to">Berlin(BER)</div>
+                        <div class="arrival_time">12:20</div>
+                        <div class="arrival_date">Wed 11 Nov 2021</div>
+                    </div>
+                </div>
+                <div class="cost">$805</div>
+                <form action="booking.html">
+                    <input type="submit" value="Book" class="btn">
+                </form>
+            </div>
+            
+        </div>
+    </div>
+        </body>
+</html>
